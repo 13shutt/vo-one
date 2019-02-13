@@ -1,8 +1,13 @@
-import { injectGlobal } from 'styled-components';
+import { injectGlobal } from 'styled-components'
+import HelveticaNeueCyr from '../assets/fonts/HelveticaNeueCyr-Black.ttf'
 
 const resetStyles = () => {
   // eslint-disable-next-line no-unused-expressions
   injectGlobal`
+    @font-face {
+      font-family: "HelveticaNeueCyr";
+      src: url(${HelveticaNeueCyr});
+    }
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,
@@ -21,6 +26,7 @@ const resetStyles = () => {
       border: 0;
       font-size: 100%;
       font: inherit;
+      font-family: HelveticaNeueCyr;
       vertical-align: baseline;
     }
     /* HTML5 display-role reset for older browsers */
@@ -45,9 +51,6 @@ const resetStyles = () => {
     table {
       border-collapse: collapse;
       border-spacing: 0;
-    }
-    html {
-      overflow-y: scroll;
     }
   `;
 };
