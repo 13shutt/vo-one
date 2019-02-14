@@ -17,7 +17,7 @@ const StyeldDiv = styled.div`
     flex-direction: row;
     justify-content: space-between;
     h5 {
-      font-family: HelveticaNeueCyr;
+      font-family: HelveticaNeueCyrMedium;
       line-height: normal;
       font-size: 16px;
     }
@@ -31,7 +31,7 @@ const StyeldDiv = styled.div`
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        font-family: HelveticaNeueCyr;
+        font-family: HelveticaNeueCyrLight;
         line-height: normal;
         font-size: 16px;
       }

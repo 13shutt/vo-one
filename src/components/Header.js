@@ -7,10 +7,10 @@ const Header = styled.header`
     margin-right: 5vw;
     line-height: normal;
     font-size: 24px;
-    font-weight: bold;
   }
   h5 a {
     color: black;
+    font-family: "HelveticaNeueCyrBold";
     text-decoration: none;
     &:hover, &:active, &:visited {
       text-decoration: none;

@@ -9,7 +9,8 @@ const Paragraph = styled.p`
   ${({ intro }) => 
     intro && css`
       margin-top: 7vh;
-      font-family: HelveticaNeueCyr;
+      font-family: "HelveticaNeueCyrLight";
+      line-height: normal;
       line-height: 19px;
       font-size: 16px;
       width: 49vw;

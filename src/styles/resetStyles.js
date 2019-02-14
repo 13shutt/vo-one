@@ -1,7 +1,4 @@
 import { injectGlobal } from 'styled-components'
-import HelveticaNeueCyrBold from '../assets/fonts/HelveticaNeueCyr-Black.ttf'
-import HelveticaNeueCyrMedium from '../assets/fonts/HelveticaNeueCyr-Medium.ttf'
-import HelveticaNeueCyrLight from '../assets/fonts/HelveticaNeueCyr-Light.ttf'
 
 const resetStyles = () => {
   // eslint-disable-next-line no-unused-expressions

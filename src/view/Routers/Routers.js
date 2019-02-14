@@ -1,10 +1,10 @@
 import React, { Component } from 'react'
 import { Switch, Link, Route } from 'react-router-dom'
 
-import { Header, Wrapper } from '../../components'
-import Home from '../Home'
-import About from '../About'
-import Contacts from '../Contacts'
+import { Header, Wrapper } from 'components'
+import Home from 'view/Home'
+import About from 'view/About'
+import Contacts from 'view/Contacts'
 
 export default class AppContainer extends Component {
   render() { 

@@ -8,14 +8,14 @@ const StyeldDiv = styled.div`
   width: 25%;
   color: #000;
   h4 {
-    font-family: HelveticaNeueCyr;
+    font-family: "HelveticaNeueCyrMedium";
     line-height: 19px;
     font-size: 20px;
     font-weight: bold;
     margin-bottom: 3vh;
   }
   p {
-    font-family: HelveticaNeueCyr;
+    font-family: "HelveticaNeueCyrLight";
     line-height: 22px;
     font-size: 16px;
   }

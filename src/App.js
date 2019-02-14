@@ -2,8 +2,8 @@ import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
 import styled, { ThemeProvider } from 'styled-components'
 
-import { initStyles } from './styles'
-import Routers from './view/Routers'
+import { initStyles } from 'styles'
+import Routers from 'view/Routers'
 
 initStyles()
 
