@@ -1,13 +1,11 @@
 import { injectGlobal } from 'styled-components'
-import HelveticaNeueCyr from '../assets/fonts/HelveticaNeueCyr-Black.ttf'
+import HelveticaNeueCyrBold from '../assets/fonts/HelveticaNeueCyr-Black.ttf'
+import HelveticaNeueCyrMedium from '../assets/fonts/HelveticaNeueCyr-Medium.ttf'
+import HelveticaNeueCyrLight from '../assets/fonts/HelveticaNeueCyr-Light.ttf'
 
 const resetStyles = () => {
   // eslint-disable-next-line no-unused-expressions
   injectGlobal`
-    @font-face {
-      font-family: "HelveticaNeueCyr";
-      src: url(${HelveticaNeueCyr});
-    }
     html, body, div, span, applet, object, iframe,
     h1, h2, h3, h4, h5, h6, p, blockquote, pre,
     a, abbr, acronym, address, big, cite, code,

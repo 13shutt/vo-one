@@ -6,7 +6,7 @@ const Button = styled.button`
   border: 3px solid ${props => props.theme.primaryColor};;
   box-sizing: border-box;
   border-radius: 50px;
-  font-family: HelveticaNeueCyr;
+  font-family: HelveticaNeueCyrMedium;
   line-height: normal;
   font-size: 24px;
   color: ${props => props.theme.primaryColor};;

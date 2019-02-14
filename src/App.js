@@ -1,6 +1,6 @@
 import React from 'react';
 import { BrowserRouter } from 'react-router-dom'
-import { ThemeProvider } from 'styled-components'
+import styled, { ThemeProvider } from 'styled-components'
 
 import { initStyles } from './styles'
 import Routers from './view/Routers'
@@ -10,20 +10,24 @@ initStyles()
 const original = {
   primaryColor: "#440099", // ${props => props.theme.primaryColor};
   secondaryColor: "#000000", // ${props => props.theme.secondaryColor};
-  backgroundColor: "#000", // ${props => props.theme.backgroundColor};
+  backgroundColor: "#FFFFFF", // ${props => props.theme.backgroundColor};
   textHighLightColor: "#FFFFFF", // ${props => props.theme.textHighLightColor};
   textHighLightBg: "#9973C7" // ${props => props.theme.textHighLightBg};
 }
 
+const Body = styled.body`
+  background: ${props => props.theme.backgroundColor};
+`
+
 const App = () => {
   return (
-    <div>
-      <BrowserRouter>
-        <ThemeProvider theme={original}>
+    <BrowserRouter>
+      <ThemeProvider theme={original}>
+        <Body>
           <Routers />
-        </ThemeProvider>
-      </BrowserRouter>
-    </div>
+        </Body>
+      </ThemeProvider>
+    </BrowserRouter>
   );
 }
 

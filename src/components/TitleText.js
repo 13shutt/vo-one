@@ -17,7 +17,7 @@ const TitleText = styled.span`
       line-height: 75px;
       font-size: 95px;
       color: ${props => props.theme.secondaryColor};
-      font-weight: 900;
+      font-weight: bold;
       margin-left: 3vw;
     `
   }

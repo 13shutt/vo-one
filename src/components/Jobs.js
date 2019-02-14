@@ -7,7 +7,7 @@ const StyeldDiv = styled.div`
   margin: 2vh 0;
   color: #000;
   h4 {
-    font-family: HelveticaNeueCyr;
+    font-family: HelveticaNeueCyrMedium;
     line-height: normal;
     font-size: 18px;
     font-weight: bold;
