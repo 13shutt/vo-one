@@ -1,9 +1,9 @@
 import React, { Component } from 'react'
-import { Title, TitleText, Paragraph, Wrapper, Jobs, Testimonial, Skills, Button } from '../../components'
+import { Title, TitleText, Paragraph, Wrapper, Jobs, Testimonial, Skills, Button } from 'components'
 
-import exp from '../../assets/data/exp.js'
-import testimonials from '../../assets/data/testimonials.js'
-import skills from '../../assets/data/skills.js'
+import exp from 'assets/data/exp.js'
+import testimonials from 'assets/data/testimonials.js'
+import skills from 'assets/data/skills.js'
 
 class Home extends Component {
 

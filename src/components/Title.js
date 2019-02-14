@@ -13,8 +13,10 @@ const Title = styled.section`
     h3 {
       margin-bottom: 6vh;
       font-size: 30px;
+      font-family: "HelveticaNeueCyrLight";
       span {
         font-weight: bold;
+        font-family: "HelveticaNeueCyrMedium";
       }
     }
   }
