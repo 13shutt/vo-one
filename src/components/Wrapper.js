@@ -1,7 +1,7 @@
 import styled, { css } from 'styled-components'
 
 const Wrapper = styled.div`
-  
+
   ${({ body }) => 
     body && css`
       width: 65vw;

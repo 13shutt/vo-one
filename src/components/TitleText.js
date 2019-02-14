@@ -1,7 +1,7 @@
 import styled, { css } from "styled-components"
 
 const TitleText = styled.span`
-  color: #440099;
+  color: ${props => props.theme.primaryColor};;
   font-family: HelveticaNeueCyr;
 
   ${({ header }) => 
@@ -16,7 +16,7 @@ const TitleText = styled.span`
     black && css`
       line-height: 75px;
       font-size: 95px;
-      color: #000;
+      color: ${props => props.theme.secondaryColor};
       font-weight: 900;
       margin-left: 3vw;
     `

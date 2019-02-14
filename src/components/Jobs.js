@@ -5,11 +5,11 @@ const StyeldDiv = styled.div`
   display: flex;
   flex-direction: column;
   margin: 2vh 0;
+  color: #000;
   h4 {
     font-family: HelveticaNeueCyr;
     line-height: normal;
     font-size: 18px;
-    color: #101820;
     font-weight: bold;
   }
   div {
@@ -20,7 +20,6 @@ const StyeldDiv = styled.div`
       font-family: HelveticaNeueCyr;
       line-height: normal;
       font-size: 16px;
-      color: #101820;
     }
     span {
       width: 36vw;
@@ -35,7 +34,6 @@ const StyeldDiv = styled.div`
         font-family: HelveticaNeueCyr;
         line-height: normal;
         font-size: 16px;
-        color: #101820;
       }
     }
   }

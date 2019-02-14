@@ -2,8 +2,9 @@ import styled, { css } from "styled-components"
 
 const Paragraph = styled.p`
   span {
-    background: #9973C7;
-    color: #FFFFFF;
+    background: ${props => props.theme.textHighLightBg};
+    color: ${props => props.theme.textHighLightColor};
+    padding: 2px 1px 0px 1px;
   }
   ${({ intro }) => 
     intro && css`
