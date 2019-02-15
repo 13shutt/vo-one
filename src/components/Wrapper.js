@@ -13,6 +13,11 @@ const Wrapper = styled.div`
     intro && css`
       width: 65vw;
       margin-top: 7vh;
+      p {
+        margin-top: 7vh;
+        width: 52vw;
+        margin-bottom: 7vh;
+      }
     `
   }
 
@@ -63,6 +68,32 @@ const Wrapper = styled.div`
       button {
         margin-top: 20vh;
       }
+    `
+  }
+
+  ${({ title }) => 
+    title && css`
+      margin-top: 12vh;
+    `
+  }
+
+  ${({ text }) => 
+    text && css`
+      margin: 12vh 0vh;
+      width: 58vw;
+    `
+  }
+
+  ${({ about }) => 
+    about && css`
+      width: 50vw;
+      margin: 20vh 0vh;
+    `
+  }
+
+  ${({ empty }) => 
+    empty && css`
+      margin-bottom: 45vh;
     `
   }
 `

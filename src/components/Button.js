@@ -3,7 +3,7 @@ import styled from 'styled-components'
 const Button = styled.button`
   width: 26vw;
   height: 10vh;
-  border: 3px solid ${props => props.theme.primaryColor};;
+  border: 3px solid ${props => props.theme.primaryColor};
   box-sizing: border-box;
   border-radius: 50px;
   font-family: HelveticaNeueCyrMedium;

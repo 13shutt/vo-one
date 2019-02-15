@@ -22,7 +22,7 @@ class Home extends Component {
         
         <Wrapper intro>
           <TitleText label>INTRO</TitleText>
-          <Paragraph intro>
+          <Paragraph text>
             <span>This online version of my</span> resume was created as an experiment to learning Vue.js from scratch. For development, I've used manually configured vue-cli with the following features: Router, SCSS/SASS Pre-processors, ESLint + Airbnb config, Unit Testing on Jest and E2E Testing on Cypress.
           </Paragraph>
         </Wrapper>

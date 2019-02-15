@@ -12,6 +12,14 @@ const TitleText = styled.span`
     `
   }
 
+  ${({ medium }) => 
+    medium && css`
+      line-height: 75px;
+      font-size: 72px;
+      font-family: "HelveticaNeueCyrMedium";
+    `
+  }
+
   ${({ black }) => 
     black && css`
       line-height: 75px;
