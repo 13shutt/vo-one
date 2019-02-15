@@ -1,14 +1,14 @@
 {
-  "main.js": "/vo-one/static/js/main.1a380d13.chunk.js",
-  "main.js.map": "/vo-one/static/js/main.1a380d13.chunk.js.map",
-  "runtime~main.js": "/vo-one/static/js/runtime~main.5d895089.js",
-  "runtime~main.js.map": "/vo-one/static/js/runtime~main.5d895089.js.map",
-  "static/js/2.e8ba2458.chunk.js": "/vo-one/static/js/2.e8ba2458.chunk.js",
-  "static/js/2.e8ba2458.chunk.js.map": "/vo-one/static/js/2.e8ba2458.chunk.js.map",
-  "index.html": "/vo-one/index.html",
-  "precache-manifest.012ac18cfc82b18670338264bc7fa7e8.js": "/vo-one/precache-manifest.012ac18cfc82b18670338264bc7fa7e8.js",
-  "service-worker.js": "/vo-one/service-worker.js",
-  "static/media/HelveticaNeueCyr-Black.ttf": "/vo-one/static/media/HelveticaNeueCyr-Black.303f6a53.ttf",
-  "static/media/HelveticaNeueCyr-Light.ttf": "/vo-one/static/media/HelveticaNeueCyr-Light.30778183.ttf",
-  "static/media/HelveticaNeueCyr-Medium.ttf": "/vo-one/static/media/HelveticaNeueCyr-Medium.e603c690.ttf"
+  "main.js": "https://13shutt.github.io/vo-one/static/js/main.1a380d13.chunk.js",
+  "main.js.map": "https://13shutt.github.io/vo-one/static/js/main.1a380d13.chunk.js.map",
+  "runtime~main.js": "https://13shutt.github.io/vo-one/static/js/runtime~main.8f7b3fdb.js",
+  "runtime~main.js.map": "https://13shutt.github.io/vo-one/static/js/runtime~main.8f7b3fdb.js.map",
+  "static/js/2.815f242c.chunk.js": "https://13shutt.github.io/vo-one/static/js/2.815f242c.chunk.js",
+  "static/js/2.815f242c.chunk.js.map": "https://13shutt.github.io/vo-one/static/js/2.815f242c.chunk.js.map",
+  "index.html": "https://13shutt.github.io/vo-one/index.html",
+  "precache-manifest.637a33f59f9a6f06ef0d9cfefae635f1.js": "https://13shutt.github.io/vo-one/precache-manifest.637a33f59f9a6f06ef0d9cfefae635f1.js",
+  "service-worker.js": "https://13shutt.github.io/vo-one/service-worker.js",
+  "static/media/HelveticaNeueCyr-Black.ttf": "https://13shutt.github.io/vo-one/static/media/HelveticaNeueCyr-Black.303f6a53.ttf",
+  "static/media/HelveticaNeueCyr-Light.ttf": "https://13shutt.github.io/vo-one/static/media/HelveticaNeueCyr-Light.30778183.ttf",
+  "static/media/HelveticaNeueCyr-Medium.ttf": "https://13shutt.github.io/vo-one/static/media/HelveticaNeueCyr-Medium.e603c690.ttf"
 }

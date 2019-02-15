@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/vo-one/precache-manifest.012ac18cfc82b18670338264bc7fa7e8.js"
+  "https://13shutt.github.io/vo-one/precache-manifest.637a33f59f9a6f06ef0d9cfefae635f1.js"
 );
 
 workbox.clientsClaim();
@@ -28,7 +28,7 @@ self.__precacheManifest = [].concat(self.__precacheManifest || []);
 workbox.precaching.suppressWarnings();
 workbox.precaching.precacheAndRoute(self.__precacheManifest, {});
 
-workbox.routing.registerNavigationRoute("/vo-one/index.html", {
+workbox.routing.registerNavigationRoute("https://13shutt.github.io/vo-one/index.html", {
   
   blacklist: [/^\/_/,/\/[^\/]+\.[^\/]+$/],
 });
