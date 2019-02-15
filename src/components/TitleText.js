@@ -9,6 +9,8 @@ const TitleText = styled.span`
       line-height: 75px;
       font-size: 95px;
       font-family: "HelveticaNeueCyrBold";
+      position: relative;
+      z-index: 3;
     `
   }
 
@@ -27,6 +29,10 @@ const TitleText = styled.span`
       color: ${props => props.theme.secondaryColor};
       margin-left: 3vw;
       font-family: "HelveticaNeueCyrBold";
+      position: relative;
+      z-index: 1;
+      top: -21px;
+      left: -13px;
     `
   }
 
