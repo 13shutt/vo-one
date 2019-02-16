@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "https://13shutt.github.io/vo-one/precache-manifest.f5e41b29528b97cc2113358dca1e4567.js"
+  "https://13shutt.github.io/vo-one/precache-manifest.3177ad250cfe4419311cec9b55e17418.js"
 );
 
 workbox.clientsClaim();
