@@ -1,22 +1,37 @@
-import React, { Component } from 'react'
-import { Switch, Link, Route } from 'react-router-dom'
+import React, { Component } from "react";
+import { Switch, Route, NavLink, Redirect } from "react-router-dom";
 
-import { Header, Wrapper } from 'components'
-import Home from 'view/Home'
-import About from 'view/About'
-import Contacts from 'view/Contacts'
+import { Header, Wrapper } from "components";
+import Home from "view/Home";
+import About from "view/About";
+import Contacts from "view/Contacts";
 
 export default class AppContainer extends Component {
-  render() { 
+
+  render() {
     return (
       <Wrapper main>
         <Wrapper body>
           <Header>
-            <h5><Link to="/home">home</Link></h5>
-            <h5><Link to="/about">about</Link></h5>
-            <h5><Link to="/contacts">contacts</Link></h5>
+            <h5>
+              <NavLink to="/home" activeStyle={{ color: "black" }}>
+                home
+              </NavLink>
+            </h5>
+            <h5>
+              <NavLink to="/about" activeStyle={{ color: "black" }}>
+                about
+              </NavLink>
+            </h5>
+            <h5>
+              <NavLink to="/contacts" activeStyle={{ color: "black" }}>
+                contacts
+              </NavLink>
+            </h5>
           </Header>
-          
+
+          <Redirect from="/" to="/home" component={Home} />
+
           <Switch>
             <Route exact path="/" component={Home} />
             <Route path="/home" component={Home} />
@@ -26,6 +41,6 @@ export default class AppContainer extends Component {
           </Switch>
         </Wrapper>
       </Wrapper>
-    )
+    );
   }
 }

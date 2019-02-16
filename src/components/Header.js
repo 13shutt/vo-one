@@ -13,8 +13,13 @@ const Header = styled.header`
     color: black;
     font-family: "HelveticaNeueCyrBold";
     text-decoration: none;
+    color: #7C8185;;
     &:hover, &:active, &:visited {
       text-decoration: none;
+    }
+    &:hover {
+      transition: ease-out 0.08s;
+      color: #000;
     }
   }
 `

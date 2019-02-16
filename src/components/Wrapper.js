@@ -4,7 +4,7 @@ const Wrapper = styled.div`
 
   ${({ body }) => 
     body && css`
-      width: 65vw;
+      width: 80vw;
       margin-top: 10vh;
     `
   }
