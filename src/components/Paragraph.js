@@ -6,13 +6,6 @@ const Paragraph = styled.p`
   line-height: 19px;
   font-size: 16px;
 
-  span {
-    background: ${props => props.theme.textHighLightBg};
-    color: ${props => props.theme.textHighLightColor};
-    padding: 2px 1px 0px 1px;
-    font-family: "HelveticaNeueCyrLight";
-  }
-
   ${({ about }) =>
     about && css`
       font-size: 22px;

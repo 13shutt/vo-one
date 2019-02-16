@@ -17,6 +17,11 @@ const original = {
 
 const Body = styled.body`
   background: ${props => props.theme.backgroundColor};
+
+  *::selection {
+    background: ${props => props.theme.textHighLightBg};
+    color: ${props => props.theme.textHighLightColor};
+  }
 `
 
 const App = () => {
