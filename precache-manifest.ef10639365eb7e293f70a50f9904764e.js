@@ -16,15 +16,15 @@ self.__precacheManifest = [
     "url": "https://13shutt.github.io/vo-one/static/js/runtime~main.8f7b3fdb.js"
   },
   {
-    "revision": "caab5945902563651615",
-    "url": "https://13shutt.github.io/vo-one/static/js/main.caab5945.chunk.js"
+    "revision": "b18dbec9669c8e035c8b",
+    "url": "https://13shutt.github.io/vo-one/static/js/main.b18dbec9.chunk.js"
   },
   {
     "revision": "815f242c0cec90dc9644",
     "url": "https://13shutt.github.io/vo-one/static/js/2.815f242c.chunk.js"
   },
   {
-    "revision": "0050ecfbf52f98092bc5f977cdc5700e",
+    "revision": "59ebf631808043164522423c8d13f100",
     "url": "https://13shutt.github.io/vo-one/index.html"
   }
 ];
