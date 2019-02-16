@@ -4,16 +4,15 @@ const Contact = styled.div`
   margin-top: 3vh;
   font-family: "HelveticaNeueCyrLight";
   line-height: normal;
-  line-height: 19px;
-  font-size: 16px;
   display: flex;
   flex-direction: row;
+  line-height: normal;
+  font-size: 18px;
 
   div {
     font-family: "HelveticaNeueCyrLight";
     line-height: normal;
-    line-height: 19px;
-    font-size: 16px;
+    font-size: 18px;
     margin-right: 5px;
   }
 

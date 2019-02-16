@@ -29,21 +29,21 @@ class Home extends Component {
         
         <hr/>
 
-        <Wrapper experience>
+        <Wrapper standard>
           <TitleText label>EXPERIENCE</TitleText>
           <Jobs data={exp} />
         </Wrapper>
 
         <hr/>
 
-        <Wrapper testimonials>
+        <Wrapper standard>
           <TitleText label>TESTIMONIALS</TitleText>
           <Testimonial data={testimonials}/>
         </Wrapper>
 
         <hr/>
 
-        <Wrapper skills>
+        <Wrapper standard>
           <TitleText label>SKILLS</TitleText>
           <Skills data={skills} />
         </Wrapper>

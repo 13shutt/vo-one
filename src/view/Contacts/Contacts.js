@@ -15,7 +15,7 @@ class Contacts extends Component {
           </Paragraph>
         </Wrapper>
 
-        <Wrapper>
+        <Wrapper standard>
           <Contact>
             <div>my email:</div> 
             <span>leo@trytynichenko.com</span>

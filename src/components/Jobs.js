@@ -9,7 +9,7 @@ const StyeldDiv = styled.div`
   h4 {
     font-family: HelveticaNeueCyrMedium;
     line-height: normal;
-    font-size: 18px;
+    font-size: 24px;
     font-weight: bold;
   }
   div {
@@ -19,7 +19,7 @@ const StyeldDiv = styled.div`
     h5 {
       font-family: HelveticaNeueCyrMedium;
       line-height: normal;
-      font-size: 16px;
+      font-size: 18px;
     }
     span {
       width: 36vw;
@@ -33,7 +33,7 @@ const StyeldDiv = styled.div`
         justify-content: flex-end;
         font-family: HelveticaNeueCyrLight;
         line-height: normal;
-        font-size: 16px;
+        font-size: 18px;
       }
     }
   }

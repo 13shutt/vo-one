@@ -3,6 +3,7 @@ import styled from "styled-components"
 const Header = styled.header`
   display: flex;
   flex-direction: row;
+  margin-bottom: 17vh;
   h5 {
     margin-right: 5vw;
     line-height: normal;

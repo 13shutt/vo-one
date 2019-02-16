@@ -5,19 +5,25 @@ const StyeldDiv = styled.div`
   display: flex;
   flex-direction: column;
   margin-top: 8vh;
-  width: 25%;
+  width: 19%;
   color: #000;
+
+  &:nth-child(2), &:nth-child(3), &:nth-child(4),
+  &:nth-child(6), &:nth-child(7), &:nth-child(8) {
+    margin-left: 6%
+  }
+
   h4 {
     font-family: "HelveticaNeueCyrMedium";
-    line-height: 19px;
-    font-size: 20px;
+    line-height: normal;
+    font-size: 24px;
     font-weight: bold;
     margin-bottom: 3vh;
   }
   p {
     font-family: "HelveticaNeueCyrLight";
-    line-height: 22px;
-    font-size: 16px;
+    line-height: 25px;
+    font-size: 18px;
   }
 `
 
@@ -25,6 +31,7 @@ const StyledSection = styled.section`
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  justify-content: space-between;
 `
 
 const Skills = ({ data }) => (

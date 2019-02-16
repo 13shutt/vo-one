@@ -6,18 +6,19 @@ const TitleText = styled.span`
 
   ${({ header }) => 
     header && css`
-      line-height: 75px;
+      line-height: 62px;
       font-size: 95px;
       font-family: "HelveticaNeueCyrBold";
       position: relative;
       background: ${props => props.theme.backgroundColor};
       z-index: 3;
+      font-size: 112px;
     `
   }
 
   ${({ medium }) => 
     medium && css`
-      line-height: 75px;
+      line-height: normal;
       font-size: 72px;
       font-family: "HelveticaNeueCyrMedium";
     `
@@ -32,8 +33,10 @@ const TitleText = styled.span`
       font-family: "HelveticaNeueCyrBold";
       position: relative;
       z-index: 1;
-      top: -11px;
-      left: -13px;
+      top: -12px;
+      left: -9px;
+      line-height: 91px;
+      font-size: 112px;
     `
   }
 

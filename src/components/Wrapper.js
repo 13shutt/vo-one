@@ -29,22 +29,8 @@ const Wrapper = styled.div`
     `
   }
 
-  ${({ experience }) => 
-    experience && css`
-      margin-top: 12vh;
-      margin-bottom: 8vh; 
-    `
-  }
-
-  ${({ testimonials }) => 
-    testimonials && css`
-      margin-top: 12vh;
-      margin-bottom: 8vh; 
-    `
-  }
-
-  ${({ skills }) => 
-    skills && css`
+  ${({ standard }) => 
+    standard && css`
       margin-top: 12vh;
       margin-bottom: 8vh; 
     `

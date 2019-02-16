@@ -2,13 +2,19 @@ import styled, { css } from "styled-components"
 
 const Paragraph = styled.p`
   font-family: "HelveticaNeueCyrLight";
-  line-height: normal;
   line-height: 19px;
-  font-size: 16px;
+  font-size: 18px;
 
   ${({ about }) =>
     about && css`
-      font-size: 22px;
+      line-height: normal;
+      font-size: 24px;
+    `
+  }
+  ${({ high }) =>
+    high && css`
+      line-height: 25px;
+      font-size: 18px;
     `
   }
 `

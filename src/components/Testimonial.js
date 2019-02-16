@@ -4,19 +4,19 @@ import styled from "styled-components"
 const StyeldDiv = styled.div`
   display: flex;
   flex-direction: column;
-  margin: 4vh 0;
+  margin: 6vh 0;
   color: #000;
   h4 {
     font-family: HelveticaNeueCyrMedium;
     line-height: 19px;
-    font-size: 20px;
+    font-size: 24px;
     font-weight: bold;
   }
   p {
     font-family: "HelveticaNeueCyrLight";
     line-height: normal;
-    font-size: 16px;
-    margin-top: 1vh;
+    font-size: 18px;
+    margin-top: 2vh;
   }
 `
 
